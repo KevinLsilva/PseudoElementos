@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    background:lightblue;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid silver;
+    padding: 20px;
+    background:white;
+    margin-top:20px;
+
+}
+
+.traços::before {
+
+    content: "---";
+}
+
+.coraçãoantes::before {
+
+    content: "❤";
+}
+
+.coraçãodepois::after {
+
+    content: "❤";
+}
+
+.coraçãoad::before {
+
+    content: "❤"
+}
+
+.coraçãoad::after {
+
+    content: "❤"
+
+}
+
+.text::first-letter {
+
+    color: mediumaquamarine;
+  font-size: 50px;
+} 
+
+.text::first-line {
+
+    color : mediumaquamarine
+}
